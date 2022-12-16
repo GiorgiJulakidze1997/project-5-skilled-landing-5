@@ -1,0 +1,371 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+} 
+
+a {
+    text-decoration: none;
+}
+
+.hero-img-desktop {
+    display: none;
+}
+
+.main-div {
+    padding: 15px;
+    background-color: rgb(248, 248, 248);
+
+}
+.header {
+    display: flex;
+    justify-content: space-between;
+}
+.sans-800 {
+    font-family: "Plus Jakarta Sans", sans-serif;
+    font-weight: 800;
+    
+}
+
+.margin-top-25 {
+    margin-top: 25px;
+}
+.typography-size-skilled {
+    font-size: 28px;
+    line-height: 35px;
+    letter-spacing: 0px;
+    text-align: left;
+}
+
+.color-blue {
+    color: #13183F;
+}
+
+.box-items-position {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.sans-700 {
+    font-family: "Plus Jakarta Sans", sans-serif;
+    font-weight: 700;
+    
+}
+
+.typography-size-get-started {
+    font-size: 16px;
+    line-height: 28px;
+    letter-spacing: 0px;
+    text-align: left;
+}
+
+.color-white {
+    color: #FFFFFF;
+}
+
+.get-started-box{
+    height: 48px;
+    width: 140px;
+    left: 0px;
+    top: 0px;
+    border-radius: 28px;
+}
+
+.get-started-box:hover {
+    background-color: #666CA3;
+
+}
+
+.get-started-pink-border {
+    border: 1px solid pink
+}
+
+.get-started-pink-border:hover {
+    background: #FF6F48;
+
+}
+
+.background-color-blue {
+    background-color: #13183F;
+}
+/* ------------------------------------------------------------------------------------------------------------------------------ */
+.info-box {
+    gap: 25px;
+    padding-top: 38px;
+}
+
+.Maximize-skill-typography {
+    font-size: 40px;
+    line-height: 50px;
+    letter-spacing: 0px;
+    text-align: left;
+
+}
+
+.sans-500 {
+    font-family: "Plus Jakarta Sans", sans-serif;
+    font-weight: 500;
+}
+
+.information-typography {
+    font-size: 16px;
+    line-height: 26px;
+    letter-spacing: 0px;
+    text-align: left;
+}
+
+.color-grey {
+    color: #83869A;
+}
+
+.padding-top-25 {
+    padding-top: 25px;
+}
+
+.padding-bottom-25 {
+    padding-bottom: 25px;
+}
+
+.padding-bottom-300 {
+    padding-bottom: 300px;
+}
+
+.background-color-pink {
+    background: linear-gradient(180deg, #FF6F48 0%, #F02AA6 100%);
+
+}
+
+
+.hero-img-mobile {
+    height: 323px;
+    max-width: 343px;
+}
+.middle-box {
+    padding-bottom: 80px;
+    gap: 50px;
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(248, 248, 248);
+}
+
+.choices-box {
+    height: 120px;
+    width: 100%;
+    left: 0px;
+    top: 0px;
+    border-radius: 10px;
+    padding: 25px;
+}
+
+.check-typography {
+    font-size: 24px;
+    line-height: 32px;
+    letter-spacing: 0px;
+    text-align: left;
+}
+
+.mini-box {
+    /* padding-top: 60px; */
+    padding-left: 28px;
+    padding-right: 28px;
+    height: 259px;
+    width: 100%;
+    left: 0px;
+    top: 24px;
+    border-radius: 10px;
+
+}
+
+.background-color-white {
+    background-color: #FFFFFF;
+}
+
+.animation-img {
+    margin-top: -30px;
+}
+
+.color-pink {
+    color: #F74780;
+}
+
+.animation-typography {
+    font-size: 20px;
+    line-height: 25px;
+    letter-spacing: 0px;
+    text-align: left;
+}
+
+.mini-box-info-typography {
+    font-size: 16px;
+    line-height: 26px;
+    letter-spacing: 0px;
+    text-align: left;
+
+}
+
+.get-started-border {
+    border: 1px solid white;
+    
+}
+
+.get-started-border:hover {
+    color: #FFA7C3;
+
+}
+
+.margin-top-55 {
+    padding-top: 55px;
+}
+
+.footer-size {
+    height: 120px;
+    width: 100%;
+    padding-bottom: 140px;
+    padding-top: 50px;
+    padding-left: 16px;
+    padding-right: 16px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/* ----------------------------------------------------------------------------------------------------------------------------------------- */
+
+
+@media screen and (min-width: 650px) {
+
+    .header {
+        padding-left: 30px;
+        padding-right: 30px;
+        padding-top: 30px;
+    }
+
+    .hero-img-mobile {
+        display: none;
+    }
+
+    .hero-img-desktop {
+        display: block;
+        position: relative;
+        top: -511px;
+        right: -290px;
+        max-width: 585px;
+        height: 515px;
+    }
+
+    .tablet-info-box-1 {
+        padding-left: 30px;
+        width: 350px;
+    }
+
+    .info-box {
+        overflow: hidden;
+        padding-top: 69px;
+    }
+    .main-div {
+        background-color: inherit;
+    }
+    a {
+        text-decoration: none;
+    }
+
+    body {
+        
+        background-image: url("./images/image-hero-desktop.png");
+        background-size: 600px;
+        background-repeat: no-repeat;
+        background-position: right -270px top -40px; 
+         /* background-color: white; */
+    }
+
+    .middle-box {
+         /* margin-top: -445px;  */
+        flex-flow: row wrap;
+        padding-left: 20px;
+        gap: 20px;
+    }
+
+    .choices-box {
+        max-width: 300px;
+        height: 300px;
+        margin-top: 20px;
+        padding-top: 55px;
+    }
+
+    .mini-box {
+        max-width: 300px;
+        height: 259px;
+        margin-top: 20px;
+    }
+
+    .footer-size {
+        padding-bottom: 51px;
+        padding-left: 32px;
+        padding-right: 32px;
+    }
+
+    
+
+}
+
+
+@media screen and (min-width: 1350px) {
+    body {
+        
+        background-image: url("./images/image-hero-desktop.png");
+        background-size: 800px;
+        background-repeat: no-repeat;
+        background-position: right -250px top -30px; 
+         /* background-color: white; */
+    }
+
+    .main-div {
+        padding-left: 150px;
+        padding-right: 100px;
+        /* background-color: white; */
+    }
+
+
+
+    .get-started-box {
+        width: 167px;
+        height: 56px;
+    }
+
+    .typography-size-skilled {
+        font-size: 36px;
+    }
+
+    .tablet-info-box-1 {
+        max-width: 418px;
+        padding-top: 30px;
+    }
+
+    .hero-img-desktop {
+        display: block;
+        position: relative;
+        top: -561px;
+        right: -410px;
+        max-width: 691px;
+        height: 678px;
+    }
+
+    .footer-size {
+        padding-left: 135px;
+        padding-right: 130px;
+    }
+
+    .middle-box {
+        gap: 50px;
+        padding-left: 61px;
+        margin-top: 128px;
+    }
+
+    .desktop-padding {
+        padding-bottom: 300px;
+    }
+
+
+
+}
